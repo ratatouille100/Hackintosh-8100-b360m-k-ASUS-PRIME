@@ -14,8 +14,9 @@
   <img src="https://img.shields.io/badge/OpenCore-1.0.4-success" alt="OpenCore Version" />
   <img src="https://img.shields.io/badge/macOS-10.13~26-informational" alt="macOS Compatibility" />
   <img src="https://img.shields.io/badge/CPU-i3--8100-blue" alt="CPU" />
+  <img src="https://img.shields.io/badge/GPU-RX_580-red" alt="GPU" />
   <img src="https://img.shields.io/badge/SMBIOS-iMacPro1,1-orange" alt="SMBIOS" />
-  <img src="https://img.shields.io/badge/license-BSD_3--Clause-lightgrey" alt="License" />
+  <img src="https://img.shields.io/badge/license-BSD--3--Clause-lightgrey" alt="License" />
 </p>
 
 <br>
