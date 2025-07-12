@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.4-success" alt="OpenCore Version" />
+  <img src="https://img.shields.io/badge/OpenCore-1.0.5-success" alt="OpenCore Version" />
   <img src="https://img.shields.io/badge/macOS-10.13~26-informational" alt="macOS Compatibility" />
   <img src="https://img.shields.io/badge/CPU-i3--8100-blue" alt="CPU" />
   <img src="https://img.shields.io/badge/GPU-RX_580-red" alt="GPU" />
-  <img src="https://img.shields.io/badge/SMBIOS-iMacPro1,1-orange" alt="SMBIOS" />
+  <img src="https://img.shields.io/badge/SMBIOS-MacPro7,1-orange" alt="SMBIOS" />
   <img src="https://img.shields.io/badge/license-BSD--3--Clause-lightgrey" alt="License" />
 </p>
 
@@ -42,8 +42,8 @@
 | GPU              | AMD Radeon RX 580 4GB                       |
 | OS Disk (SSDM2)  | SSD Kingston NV1 M.2 2280 NVMe PCIe         |
 | macOS Version    | 15.5 (24F74) x86_64                         |
-| OpenCore Version | 1.0.4                                       |
-| SMBIOS           | iMacPro1,1                                  |
+| OpenCore Version | 1.0.5 (e8437f7)                             |
+| SMBIOS           | MacPro7,1                                   |
 
 <br>
 
@@ -66,7 +66,7 @@
 1. Make your USB installer with [**this guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 2. Clone the repository and paste the "EFI" directory into your pendrive
 3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and
-   select **Generate SMBIOS**, as the model select **iMacPro1,1**.
+   select **Generate SMBIOS**, as the model select **MacPro7,1**.
 4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic.
    Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values.
    Change ROM to your network card's MAC address without the `:` character. [**How to get MAC Address?**](https://www.wikihow.com/Find-the-MAC-Address-of-Your-Computer)
